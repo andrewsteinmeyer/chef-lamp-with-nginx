@@ -8,9 +8,8 @@ cookbook 'users', git: 'https://github.com/opscode-cookbooks/users.git'
 cookbook 'chef-solo-search', git: 'https://github.com/edelight/chef-solo-search'
 
 cookbook 'memcached-tlq', git: 'git@github.com:TalkingQuickly/memcached-tlq.git'
-cookbook 'mongo-tlq', git: 'git@github.com:TalkingQuickly/mongo-tlq.git'
 cookbook 'redis-tlq', git: 'git@github.com:TalkingQuickly/redis-tlq.git'
-cookbook 'monit_configs-tlq', git: 'git@github.com:TalkingQuickly/monit_configs-tlq.git', branch: 'master'
+cookbook 'monit_configs-tlq', git: 'git@github.com:andrewsteinmeyer/monit_configs-tlq.git', branch: 'master'
 cookbook 'monit-tlq', git: 'git@github.com:TalkingQuickly/monit-tlq.git', branch: 'master'
 cookbook 'rails_gem_dependencies-tlq', git: 'git@github.com:TalkingQuickly/rails_gem_dependencies-tlq.git'
 

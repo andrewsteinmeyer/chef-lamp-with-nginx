@@ -2,18 +2,17 @@
   "name": "rails-app",
   "description": "Something which runs rails apps.",
   "default_attributes": {
-    "rbenv":{
+     "rbenv":{
       "rubies": [
-        "2.0.0-p353"
+        "2.1.1"
       ],
-      "global" : "2.0.0-p353",
+      "global" : "2.1.1",
       "gems": {
-        "2.0.0-p353" : [
+        "2.1.1" : [
           {"name":"bundler"}
         ]
       }
     }
-
   },
   "json_class": "Chef::Role",
   "run_list": [

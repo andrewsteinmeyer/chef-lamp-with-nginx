@@ -14,16 +14,13 @@ DEPENDENCIES
   memcached-tlq
     git: git@github.com:TalkingQuickly/memcached-tlq.git
     revision: 8ac6e2c68c32f79efcc4c19c7099b7db72ab158d
-  mongo-tlq
-    git: git@github.com:TalkingQuickly/mongo-tlq.git
-    revision: 11736b711346d8d23f7f520d48a56b480e707e94
   monit-tlq
     git: git@github.com:TalkingQuickly/monit-tlq.git
     revision: 1418ab881e7119b59de9c0722b58faefa5e765be
     branch: master
   monit_configs-tlq
-    git: git@github.com:TalkingQuickly/monit_configs-tlq.git
-    revision: f3fb019500fb78b281bdf3a4dfba8a1161effcae
+    git: git@github.com:andrewsteinmeyer/monit_configs-tlq.git
+    revision: cc55f3417499bde3a874f02f917ede606f446c39
     branch: master
   mysql
     git: https://github.com/opscode-cookbooks/mysql
@@ -59,9 +56,8 @@ GRAPH
   java (1.22.0)
   look_and_feel-tlq (0.0.1)
   memcached-tlq (0.0.2)
-  mongo-tlq (0.0.3)
   monit-tlq (0.3.6)
-  monit_configs-tlq (0.0.5)
+  monit_configs-tlq (0.0.2)
   mysql (5.2.13)
   nginx-tlq (0.0.4)
   nodejs (1.3.0)
